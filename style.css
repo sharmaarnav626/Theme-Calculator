@@ -118,6 +118,7 @@ body.active2 .right-box p{
 	border: 0;
 	outline: none;
 	border-radius: 7px;
+	padding-inline: 20px;
 }
 body.active1 #input{
 	background-color: hsl(0, 0%, 93%);
@@ -193,8 +194,20 @@ body.active2 .equal{
 	color: #fff;
 }
 @media (max-width: 600px) {
-	.toggle h3{
-		margin-left: 2em;
-	}
 	
+    button {
+		padding: 10px;
+		font-size: 24px;
+		margin: 5px;
+	  }
+	.toggle h3 {
+	  margin-left: 0.5em;
+	}
+	#input{
+		width: 95%;
+	}
+	.btn{
+		width: 430px;
+	}
   }
+  
