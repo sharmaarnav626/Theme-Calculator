@@ -200,14 +200,23 @@ body.active2 .equal{
 		font-size: 24px;
 		margin: 5px;
 	  }
-	.toggle h3 {
-	  margin-left: 2em;
-	}
+	
 	#input{
-		width: 95%;
+		width: 90%;
 	}
 	.btn{
-		width: 430px;
+		width: 410px;
 	}
+	.reset,.equal{
+		width: 190px;
+	}
+	
+  .toggle{
+	justify-content: space-around;
+}
+.control{
+	position: relative;
+	right: 75px;
+}
   }
   
